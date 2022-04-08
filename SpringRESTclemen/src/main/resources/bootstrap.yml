@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springRESTclemen
+  cloud:
+    config:
+      uri: http://localhost:8081
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086        
+#spring.application.name: springRESTclemen
+#spring.cloud.config.uri: http://localhost:8081
+#spring.boot.admin.client.url: http://localhost:8086
